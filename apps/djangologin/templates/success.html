@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> 
+</head>
+<body>
+        <div class="container">
+                <div class="container" style="margin-top: 20px; margin-left: 80%">
+                    <a href="/login"><span style="font-size: 18px; margin-right: 20px;">Log Out</span></a>
+                </div>
+<div class="container">
+<h1>Success! Welcome, {{ request.session.id }}</h1>
+<h4>Successfully registered or logged in</h4>
+</div>
+</body>
+</html>
